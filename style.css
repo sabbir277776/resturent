@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caprasimo&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+body{
+    font-family:"Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;;
+}
 .container{
     position: relative;
 }
@@ -25,6 +30,8 @@
 }
 .bg-1{
     background-color: #f5f5f5;
+    width: 100%;
+    height: 120vh ;
 }
 .hero-section{
     width: 69%;
@@ -49,7 +56,7 @@
     background-image: url(b4c8a0309721f058270a11342b9b2c4f1d73270d.jpg);
     background-repeat: no-repeat;
     width: 100%;
-    height: 50vh;
+    height: 60vh;
 }
 .btn-2{
     background-color: #EE3A43;
@@ -84,11 +91,12 @@
     position: relative;
 }
 .col .potato{
-    width: 11%;
+    width: 18%;
 }
 .col .tomato{
     position: absolute;
     right: 0;
+    bottom: 0;
 }
 .bg-3{
     background-image: url(Section\ \(1\).png);
@@ -100,6 +108,11 @@
     background-color: #EE3A43;
     border-radius: 20px;
     height: 25vh;
+}
+.bg-7{
+    background-image: url(bg.jpg);
+    width: 50%;
+    height: 60vh;
 }
 .burger{
     position: relative;
@@ -135,3 +148,121 @@
     color: #212121;
     font-size: 14px;
 }
+.f-siz{
+    width: 100%;
+    margin-left: 300px;
+}
+.bg-image{
+  background-image: url(24f90eccd0b63e35b1dc4952ca2f98a06b98d5cf\(1\).jpg);
+  width: 50%;
+  height: 80vh;
+  position: relative;
+}
+.dex{
+  position: absolute;
+  left: 295px;
+  top: 200px;
+}
+.bg-image h1{
+  position: absolute;
+  top: 220px;
+  left: 295px;
+}
+.bg-image p{
+    position: absolute;
+    top: 320px;
+    left: 295px;
+    font-size: 13px;
+}
+.bg-image-2{
+  width: 100%;
+}
+.box1{
+    width: 425px;
+    height: 66px;
+    background-color: #f4f1ea;
+    position: relative;
+    top: 400px;
+    left: 290px;
+}
+.box2{
+    width: 425px;
+    height: 66px;
+    background-color:#ffc122;
+    position: relative;
+    top: 400px;
+    left: 290px;
+    margin-top: 1rem;
+}
+.box2 img{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.box2 span{
+    position: absolute;
+    top: 20px;
+    left: 135px;
+}
+.box1 img{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.box1 span{
+    position: absolute;
+    top: 20px;
+    left: 135px;
+}
+.main-box .box1{
+    margin-top: 1rem;
+}
+.size-2{
+    position: absolute;
+    bottom: 0;
+}
+.bg-image-3{
+    background: url(24f90eccd0b63e35b1dc4952ca2f98a06b98d5cf\ \(1\).jpg);
+}
+.rounded-circle{
+    border: 5px solid white;
+}
+.fix-m img{
+    margin: 10px;
+}
+.div10{
+    width: 150px;
+    height: 130px;
+    border-radius: 10px;
+    background-color: #ffc122
+}
+.bg-change{
+    background-color: #ee284b;
+    height: 50vh;
+}
+.btn-4{
+    padding-bottom: 5px;
+}
+.btn-4 img{
+    background-color: #ee284b;
+}
+.c-d{
+    margin: 10rem;
+    margin-left: 5rem;
+}
+.col .img-fluid-1{
+    width: 370.2px;
+    height: 30vh;
+}
+.bg-5{
+    background-color: #f5f8fd;
+    width: 120%;
+    height: 40vh;
+}
+.div13{
+    width: 380px;
+    height: 365px;
+    background-color: #ee284b;
+    border-radius: 15px;
+}
+

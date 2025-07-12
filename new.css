@@ -1,0 +1,19 @@
+.bg-image{
+  background-image: url(24f90eccd0b63e35b1dc4952ca2f98a06b98d5cf\(1\).jpg);
+  width: 50%;
+  height: 82vh;
+  position: relative;
+}
+.dex{
+  position: absolute;
+  left: 300px;
+  top: 200px;
+}
+.bg-image h2{
+  position: absolute;
+  top: 220px;
+  left: 300px;
+}
+.bg-image-2{
+  width: 100%;
+}
